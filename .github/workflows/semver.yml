@@ -27,3 +27,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WITH_V: true
           PRERELEASE: true
+          MAJOR_STRING_TOKEN: "(MAJOR)"
+          MINOR_STRING_TOKEN: "(MINOR)"
